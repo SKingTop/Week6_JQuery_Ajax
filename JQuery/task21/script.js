@@ -1,0 +1,1 @@
+$('p').css('color', 'red').filter('.www').html('!');

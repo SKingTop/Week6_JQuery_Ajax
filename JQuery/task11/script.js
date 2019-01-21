@@ -1,3 +1,4 @@
 $('p').each(function(index) {
-	$(this).not('.www').append(' ' + index );
+	$index = index + 1;
+	$(this).not('.www').append(' ' + $index );
 });
