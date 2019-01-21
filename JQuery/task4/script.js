@@ -1,0 +1,1 @@
+$(':checkbox:odd').prop('disabled', true);
