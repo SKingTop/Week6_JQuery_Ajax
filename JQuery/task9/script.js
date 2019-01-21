@@ -1,0 +1,1 @@
+$('li:eq(1)').addClass('www').wrapInner('<i>').after('<li>Привет</li>');

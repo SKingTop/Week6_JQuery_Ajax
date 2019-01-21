@@ -1,0 +1,1 @@
+$('div').children().not(':header').css('color','red');
