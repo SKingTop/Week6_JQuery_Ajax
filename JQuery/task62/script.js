@@ -1,15 +1,10 @@
-// $('#select').on('change', function(){
-// 	var $num = $('#select').val();
-// 	alert($num);
-// 		$(':checkbox').each(function(index){
-// 			if ((index+1) == $num) {
-// 				$(this).attr('checked', true);
-// 			} else {
-// 				$(this).attr('checked', false);
-// 			}
-// 		});
-// 	});
-$('#select').on('change', function () {
-var index = $('#select option:selected').index();
-$('input[type=radio]').eq(index).prop('checked',true);
-});
+$('#select1').on('change', function(){
+	var $num = $('#select1').find('option:selected').index();
+			$('input[type="radio"]').each(function(index){
+				if ($num == index) {
+					$(this).attr('checked', true);
+				} else {
+					$(this).attr('checked', false);
+				};
+			});
+	});
