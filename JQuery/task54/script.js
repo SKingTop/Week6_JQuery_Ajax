@@ -1,0 +1,1 @@
+$('li').slice(4,10).css('color', 'red');

@@ -1,0 +1,1 @@
+$('li').slice(-10).css('color', 'red').filter(':even').wrapInner('<b>');
