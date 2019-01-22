@@ -1,0 +1,1 @@
+$('p').parent(':not(div)').children().wrap('<div class="www">');

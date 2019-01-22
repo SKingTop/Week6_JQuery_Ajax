@@ -1,0 +1,1 @@
+$('li').last().prev().before('<li>Пункт</li>')

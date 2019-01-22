@@ -1,0 +1,1 @@
+$('li.www').css('color','red').filter('.bbb').remove();
